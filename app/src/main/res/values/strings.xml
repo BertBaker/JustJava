@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Just Java</string>
+    <string name="order_summary_whipped_cream">Add whipped cream? %b</string>
+    <string name="order_summary_chocolate">Add chocolate?</string>
+    <string name="order_summary_price">Total: %s</string>
+    <string name="order_summary_quantity">Quantity: %d</string>
+    <string name="thank_you">Thank you</string>
+    <string name="order_summary_email_subject">Just java for: %s</string>
+    <string name="order">Order</string>
+    <string name="initial_quantity_value">0</string>
+    <string name="order_summary_name">Name: %s</string>
+    <string name="cups_of_coffee">Cups of Coffee</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="whipped_cream">Whipped cream</string>
+    <string name="toppings">Toppings</string>
+    <string name="your_name">Your Name</string>
+</resources>
