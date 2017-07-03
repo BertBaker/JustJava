@@ -68,7 +68,7 @@
 
             <TextView
                 android:textSize="@dimen/dimension_4098"
-                android:textColor="@string/order_summary_name"
+                android:textColor="@color/primary_dark_material_dark"
                 android:id="@+id/quantity_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
