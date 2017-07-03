@@ -35,10 +35,10 @@ public class MainActivity
         if (bool2) {
             paramInt = i + this.quantity * 2;
         }
-        String str5 = getResources().getString(R.string.order_summary_whipped_cream);
-        String str4 = getResources().getString(R.string.order_summary_chocolate);
-        String str2 = getResources().getString(R.string.order_summary_price);
-        String str3 = getResources().getString(R.string.order_summary_quantity);
+        String str5 = getResources().getString(R.string.order_summary_whipped_cream)+"  ";
+        String str4 = getResources().getString(R.string.order_summary_chocolate)+"  ";
+        String str2 = getResources().getString(R.string.order_summary_price)+"  $ ";
+        String str3 = getResources().getString(R.string.order_summary_quantity)+"  ";
         String str1 = getResources().getString(R.string.thank_you);
         str5 = "\n" + str5 + bool1;
         str4 = str5 + "\n" + str4 + bool2;
@@ -88,7 +88,7 @@ public class MainActivity
         String str1 = "Name: " + paramView + createOrderSummary(calculatePrice(this.quantity, 5));
         Intent localIntent = new Intent("android.intent.action.SENDTO");
         localIntent.setData(Uri.parse("mailto:"));
-        String str2 = getResources().getString(R.string.order_summary_email_subject);
+        String str2 = getResources().getString(R.string.order_summary_email_subject)+" ";
         localIntent.putExtra("android.intent.extra.SUBJECT", str2 + paramView);
         localIntent.putExtra("android.intent.extra.TEXT", str1);
         if (localIntent.resolveActivity(getPackageManager()) != null) {
